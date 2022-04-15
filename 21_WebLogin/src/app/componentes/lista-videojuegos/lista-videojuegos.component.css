@@ -1,0 +1,52 @@
+h1{
+    background: #94c7c0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30pt;
+	font-weight: 300;
+	line-height: 1.75em;
+    text-align: left;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 13pt;
+	font-weight: 300;
+	line-height: 1.75em;
+    text-align: left;
+}
+
+label{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15pt;
+	font-weight: 300;
+	line-height: 1.75em;
+    text-align: left;
+}
+
+button {
+    background-color: #94c7c0;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+}
+
+
+table td {
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+table th {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	color: rgb(0, 0, 0);
+	background: #94c7c0 ;
+}

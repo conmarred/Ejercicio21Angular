@@ -1,0 +1,18 @@
+<h1>Login</h1>
+	<div id="formulario">
+	
+		<p>Usuario:</p>
+		<input type="text" [(ngModel)] = "email" class="form-control" name="usuario"/>
+		<span style="color: red;" [hidden]="noExisteUsuario">El usuario no existe</span>
+		<span style="color: red;" [hidden]="usuarioObligatorio">El usuario es obligatorio</span>
+	
+		<br/>
+		<p>Contraseña:</p>
+		<input type="password"[(ngModel)] = "pass" class="form-control" name="password"/>
+		<span style="color: red;" [hidden]="passwordIncorrecta">La contraseña no es correcta</span>
+		<span style="color: red;" [hidden]="passObligatorio">La contraseña es obligatoria</span>
+	
+		<br/>
+		<button (click)="login()">Entrar</button>
+	
+	</div>
